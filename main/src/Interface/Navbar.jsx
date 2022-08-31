@@ -19,7 +19,7 @@ export const NavbarMain = styled.div`
 `
 export const NavbarTools = styled.div`
     height: 60px;
-    width: 70%;
+    width: 50%;
     display :flex;
     
 `
@@ -40,7 +40,7 @@ export const NavbarMenu = styled.div`
     align-items: center;
 `
 export const NavbarA = styled.a`
-    padding: 20px;
+    padding: 25px;
     text-decoration: none;
     color:white;
     &:hover{
