@@ -1,0 +1,19 @@
+i {
+    margin-right: 5px;
+}
+
+img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: 5px;
+}
+
+.home-content {
+    position: absolute;
+    height: 100%;
+    width: calc(100%- 240px);
+    left: 300px;
+
+}

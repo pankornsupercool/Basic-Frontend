@@ -2,9 +2,13 @@ import styled from "styled-components";
 // ` `
 
 export const HeaderContainer = styled.div`
-    display:flex;
-    justify-content: center;
-    width:100%;
-    height:800px;
-    background-color:#f7f7f7;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    max-width: 1630px;
+    width: 100%;
+    left: 280px;
+    justify-content:center;
+    align-items:center;
+    background-color:#f4f3f6;
 `
