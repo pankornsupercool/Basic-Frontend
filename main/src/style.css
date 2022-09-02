@@ -2,12 +2,19 @@ i {
     margin-right: 5px;
 }
 
-img {
+.imgs {
     height: 45px;
     width: 45px;
     object-fit: cover;
     border-radius: 12px;
-    margin-left: 5px;
+    margin-left: 0px;
+    border: 1px solid black;
+}
+
+.imgIn {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
 }
 
 .home-content {
@@ -15,5 +22,12 @@ img {
     height: 100%;
     width: calc(100%- 240px);
     left: 300px;
+}
 
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 500;
 }
