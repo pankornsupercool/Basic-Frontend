@@ -1,30 +1,44 @@
 import styled from "styled-components";
 // ` `
 // background: linear-gradient(to left, #ee9ca7, #ffdde1);
+// background-image: url("bg1.png");
 export const HeaderContainer = styled.div`
     height: 1000px;
     max-width: 1640px;
     width: 100%;
-
+    border-left: 1px solid black;
     justify-content:center;
     align-items:center;
-    background-image: url("bg1.png");
+    background-color : #f5f2eb;
     padding: 12px 120px 80px 80px;
-    padding-left: 140px;
+    padding-left: 100px;
 `
 
 export const Container1 = styled.div`
-    width:100%;
+    margin-top: 25px;
+    width:350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+
+    color: black;
+
+    color: black;
+
+    transition: 0.5s ease-out;
+    &:hover{
+        background-color: wheat;
+    }
 
 `
 
 export const Container2 = styled.div`
     margin-top: 10px;
-    width:100%;
+    width:900px;
     height : 200px;
-    background-color: #fff9f2;
     border-radius: 5px;
-    border : 1px solid #edeff4;
+
 
 `
 

@@ -5,6 +5,7 @@ export const Sidebar = styled.div`
     height: 100%;
     width: 250px; 
     padding : 6px 14px;
+    
 `
 
 export const Logo_content = styled.div`

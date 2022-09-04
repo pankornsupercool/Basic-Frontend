@@ -11,7 +11,7 @@ import {
 } from './Interface/Header';
 
 const Div = styled.div`
-  font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
   display:flex;
 
 `
@@ -38,12 +38,7 @@ function App() {
             </Side_a>
           </Sidebar_li>
           {/* Space */}
-          <Sidebar_li>
-            <Side_a href="#">
-              <i class='bx bx-spa' ></i>
-              <span>Get to know me</span>
-            </Side_a>
-          </Sidebar_li>
+
           {/* Space */}
           <Sidebar_li>
             <Side_a href="#">
@@ -55,7 +50,7 @@ function App() {
           <Sidebar_li>
             <Side_a href="#">
               <i class='bx bx-spa' ></i>
-              <span>Programming Experiences</span>
+              <span>Experiences</span>
             </Side_a>
           </Sidebar_li>
           {/* Space */}
@@ -105,13 +100,14 @@ function App() {
       </Sidebar>
       <HeaderContainer>
         <Container1>
-          <h1>Welcome to my website,</h1>
+          <h3>Welcome to my Portfolio</h3>
 
         </Container1>
-        {/* <Container2>
-
+        <Container2>
+          <h1>Hi! I'm Pankorn Front-end Developer🌻 </h1>
+          <p>Front-end Developer, Day Trader, Reader, Listener.</p>
         </Container2>
-        <Container3>
+        {/* <Container3>
           <h2>The place you can know me better</h2>
         </Container3>
 
@@ -158,8 +154,8 @@ function App() {
           <Container7_Child2>
             <h2>Contract</h2>
           </Container7_Child2>
-        </Container7_Major>
- */}
+        </Container7_Major> */}
+
 
 
       </HeaderContainer>
