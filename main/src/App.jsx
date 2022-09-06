@@ -1,14 +1,21 @@
 import styled from 'styled-components'
 import "./style.css";
+
 import {
   Sidebar, Logo_content, Logo_name, Sidebar_ul, Logo, Side_a
   , Profile_content, Profile, Profile_details, name_job, Name, Job, Sidebar_li, Sidebar_i
 } from './Interface/Sidebar';
+
+
 import {
   HeaderContainer, Container1, Container2, Container3, Container4_Major, Container4_Child1, Container4_Child2
   , Container5_Major, Container5_Child1, Container5_Child2, Container6_Major, Container6_Child1, Container6_Child2,
   Container7_Major, Container7_Child1, Container7_Child2
 } from './Interface/Header';
+
+import { motion } from "framer-motion";
+import { Switch, Route } from 'react-router-dom';
+import Typed from "react-typed";
 
 const Div = styled.div`
 font-family: 'Source Code Pro', monospace;
@@ -94,70 +101,24 @@ function App() {
             </Profile_details>
           </Profile>
         </Profile_content>
-
-
-
       </Sidebar>
+
       <HeaderContainer>
         <Container1>
-          <h3>Welcome to my Portfolio</h3>
-
+          <p>Welcome to my Portfolio</p>
         </Container1>
         <Container2>
-          <h1>Hi! I'm Pankorn Front-end Developer🌻 </h1>
-          <p>Front-end Developer, Day Trader, Reader, Listener.</p>
+          {/* <h1 >Hi! I'm Pankorn Front-end Developer🌻 </h1> */}
+          <motion.h1
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 3, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] }}
+
+          >Hi! I'm Pankorn Front-end Developer🌻
+          </motion.h1>
+          <Typed strings={['Font-end Developer, Day Trader,  Reader,  Listener.',]} typeSpeed={80} backSpeed={80} />
+
         </Container2>
-        {/* <Container3>
-          <h2>The place you can know me better</h2>
-        </Container3>
-
-
-        <Container4_Major>
-          <Container4_Child1>
-            <h2>Getting To Know</h2>
-          </Container4_Child1>
-
-          <Container4_Child2>
-            <h2>Programming Skills</h2>
-
-          </Container4_Child2>
-        </Container4_Major>
-
-
-
-        <Container5_Major>
-          <Container5_Child1>
-            <h2>Programming Experiences</h2>
-          </Container5_Child1>
-          <Container5_Child2>
-            <h2>My Bookshelf</h2>
-          </Container5_Child2>
-        </Container5_Major>
-
-
-
-        <Container6_Major>
-          <Container6_Child1>
-            <h2>Day Trading & Investing</h2>
-
-          </Container6_Child1>
-          <Container6_Child2>
-            <h2>Showcase</h2>
-          </Container6_Child2>
-        </Container6_Major>
-
-
-        <Container7_Major>
-          <Container7_Child1>
-            <h2>GitHub & LinkedIn</h2>
-          </Container7_Child1>
-          <Container7_Child2>
-            <h2>Contract</h2>
-          </Container7_Child2>
-        </Container7_Major> */}
-
-
-
       </HeaderContainer>
     </Div>
   );
