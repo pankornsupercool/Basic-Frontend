@@ -50,4 +50,9 @@ export const Container3 = styled.div`
 
 `
 
+export const Text1 = styled.p`
+
+
+`
+
 

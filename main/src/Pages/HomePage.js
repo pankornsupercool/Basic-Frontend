@@ -1,7 +1,7 @@
 import { styled } from "styled-components"
 
 import {
-    HeaderContainer, Container1, Container2, Container3,
+    HeaderContainer, Container1, Container2, Container3, Text1
 
 } from '../Interface/Header';
 
@@ -34,9 +34,9 @@ function HomePage() {
             </Container2>
             <Container3>
                 <h3>Get to know me better 🎃</h3>
-                <p>👨‍🚀 Full Name: Pankorn Wangsakun</p>
+                <Text1>👨‍🚀 Full Name: Pankorn Wangsakun</Text1>
                 <p>📔 Currently Study on: Bangkok University</p>
-                <p>🪅 Looking to Internship on: Front-end Developer </p>
+                <p>🪅 Looking For Internship on: Front-end Developer </p>
             </Container3>
         </HeaderContainer>
     );
