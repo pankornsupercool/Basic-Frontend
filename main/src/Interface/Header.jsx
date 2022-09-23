@@ -31,19 +31,17 @@ export const Container1 = styled.div`
 `
 
 export const Container2 = styled.div`
-    margin-top: 10px;
     width:80%;
-    height : 120px;
     border-radius: 5px;
-
+    padding: 5px;
 
 `
 
 export const Container3 = styled.div`
     padding-left : 30px;
+    padding-right : 30px;
     margin-top: 10px;
     width:50%;
-    height : 400px;
     border-radius: 5px;
     border : 1px solid black;
 

@@ -1,5 +1,5 @@
 import { styled } from "styled-components"
-
+import "../style.css";
 import {
     HeaderContainer, Container1, Container2, Container3, Text1
 
