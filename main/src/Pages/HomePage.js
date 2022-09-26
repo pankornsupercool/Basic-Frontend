@@ -1,7 +1,7 @@
-import { styled } from "styled-components"
+
 import "../style.css";
 import {
-    HeaderContainer, Container1, Container2, Container3, Text1
+    HeaderContainer, Container1, Container2, Container3, Container4, Container5, Text1
 
 } from '../Interface/Header';
 
@@ -35,9 +35,22 @@ function HomePage() {
             <Container3>
                 <h3>Get to know me better 🎃</h3>
                 <Text1>👨‍🚀 Full Name: Pankorn Wangsakun</Text1>
-                <p>📔 Currently Study on: Bangkok University</p>
-                <p>🪅 Looking For Internship on: Front-end Developer </p>
+                <p>📔 Nickname: Toon</p>
+                <p>🪅 Born on: 9 Obtober 2000  </p>
+                <p>🦊 Passionate: Trading, Investing, Reading  </p>
             </Container3>
+            <Container4>
+                <h3>Brief Experiences 🐻‍❄️</h3>
+                <p>🌵 Front-end experience: 1 Years with self study.</p>
+                <p>🌍 Team collaboration experience: 1 Years with BU-MIT LAB TEAM.</p>
+                <p>🌳 Real work experience: -  </p>
+            </Container4>
+            <Container5>
+                <h3>Currently Looking For Internship Positions 🐻‍❄️</h3>
+                <h4>🍉 Front-end Developer</h4>
+                <h4>🍉 UX/UI Design</h4>
+                <h4>🍉 Any position about trading or investing</h4>
+            </Container5>
         </HeaderContainer>
     );
 }

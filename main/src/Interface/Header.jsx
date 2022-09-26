@@ -40,10 +40,37 @@ export const Container2 = styled.div`
 export const Container3 = styled.div`
     padding-left : 30px;
     padding-right : 30px;
+    margin-bottom: 10px;
     margin-top: 10px;
-    width:50%;
+    width:40%;
     border-radius: 5px;
     border : 1px solid black;
+
+
+`
+export const Container4 = styled.div`
+    padding-left : 30px;
+    padding-right : 30px;
+    margin-top: 10px;
+    width:40%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : 1px solid black;
+
+
+`
+export const Container5 = styled.div`
+    padding-left : 30px;
+    padding-right : 30px;
+    margin-top: 10px;
+    width:80%;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border : 1px solid black;
+     background-image: url("../6.png");
+ background-color: #cccccc;
+ background-size: cover;
 
 
 `
