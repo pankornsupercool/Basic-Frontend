@@ -30,7 +30,7 @@ function SidebarMain() {
                 <Sidebar_li>
                     <Side_a as={Link} to="/programmingskill">
                         <i class='bx bx-spa' ></i>
-                        <span>Skills</span>
+                        <span>Programming Skills</span>
                     </Side_a>
                 </Sidebar_li>
                 {/* Space */}
